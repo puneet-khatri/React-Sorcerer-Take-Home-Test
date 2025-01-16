@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.DraftEditor-root {
+  min-height: 300px;
+}
+
+.public-DraftEditor-content {
+  min-height: 300px;
+}
+
+.public-DraftStyleDefault-block {
+  margin: 0.5em 0;
+}
+
+/* Heading styles */
+.public-DraftStyleDefault-block[data-block-type="header-one"] {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  margin: 1em 0;
+  color: #1a1a1a;
+}
+
+/* Editor placeholder */
+.public-DraftEditorPlaceholder-root {
+  color: #9ca3af;
+  position: absolute;
+  padding: 0.5rem 0;
+}
